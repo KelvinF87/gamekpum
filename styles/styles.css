@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tool {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    width: 100px;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+
+}
+
+.container-preguntas {
+    /* z-index: 1000; */
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px red;
+}
+
+.canva {
+    cursor: none;
+    background-color: rgb(45, 44, 45);
+    background-image: url(../img/alcaravaneras.webp);
+    background-size: cover;
+    /* filter: blur(1px);  */
+    filter: brightness(0.9);
+
+    height: 100vh;
+    transition: .3s;
+}
+
+.brillo-y-desenfoque {
+    backdrop-filter: blur(200px) brightness(1.2);
+}
+
+.saturacion-y-desenfoque {
+    backdrop-filter: blur(8px) saturate(150%);
+}
+
+.canva>.personaje>img {
+    width: 70%;
+    /* Ancho de la imagen */
+    min-width: 500px;
+    /* Ancho mínimo */
+    position: fixed;
+    /* Fija la imagen en la pantalla */
+    bottom: 0;
+    /* Coloca la imagen en la parte inferior */
+    left: 15%;
+    /* Centra horizontalmente */
+    transform: translateX(-50%);
+    /* Ajusta el centrado */
+    transition: transform 0.1s;
+    /* Suaviza la transición */
+    transform: translate(50px, 100px) rotate(100deg) scale(1.2);
+}
+
+.disparo {
+    display: none;
+
+    transition: 0.5s;
+}
+
+.disparado {
+    width: 200px;
+    display: flex;
+}
+
+#mirilla {
+    position: absolute;
+    /* Permite mover la imagen libremente */
+    width: 100px;
+    /* Ajusta el tamaño de la imagen según sea necesario */
+    pointer-events: none;
+    /* Evita que la imagen interfiera con otros eventos del mouse */
+    border: solid white;
+    border-radius: 50%;
+}
