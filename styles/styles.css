@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-width: none;
+   
+}
+body{
+    overflow-y: hidden;
 }
 
 .tool {
@@ -19,11 +24,34 @@ main {
 
 .container-preguntas {
     /* z-index: 1000; */
+    width: 100%;
     text-align: center;
     color: white;
     text-shadow: 0 0 10px red;
-}
 
+}
+.caja-respuestas{
+    margin: 0;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+    text-shadow: 0 0 10px rgb(47, 0, 255);
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+article{
+    /* background-color: aquamarine; */
+    margin: auto;
+    width: 220px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+article>img{
+    width: 100%;
+
+}
 .canva {
     cursor: none;
     background-color: rgb(45, 44, 45);
@@ -71,6 +99,7 @@ main {
 .disparado {
     width: 200px;
     display: flex;
+    transition: 0.5s;
 }
 
 #mirilla {

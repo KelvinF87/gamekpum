@@ -50,7 +50,7 @@ iniciaJuego()
             const timerDisparo = setInterval(() => {
             // Añadir la clase "disparado" al elemento span
             disparoContainer.classList.add("disparado"); // Mejor usar classList para añadir clases
-            spanDisparo.style.transform = `translate(${rotationZ * 15.9}px, ${mouseY / 2.6}px) rotate(${rotationZ}deg)  scale(2.5)`
+            spanDisparo.style.transform = `translate(${rotationZ * 7.9}px, ${mouseY / 2}px) rotate(${rotationZ}deg)  scale(19.5)`
             
             counttimerDisparo++;
             if (counttimerDisparo >= 2) {
