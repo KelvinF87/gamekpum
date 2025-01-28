@@ -36,6 +36,9 @@ dl {
 dt {
     font-weight: bold;
 }
+#contact{
+    margin-bottom: 100px;
+}
 
 footer {
     background-color: #333;
