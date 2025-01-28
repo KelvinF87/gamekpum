@@ -49,12 +49,12 @@ Cuando el juego termina, verás:
 
 ## Créditos
 
-- **Desarrollo**: [Tu Nombre o Equipo]
-- **Música y Sonidos**: [Créditos de la música y sonidos utilizados]
-- **Imágenes**: [Créditos de las imágenes utilizadas]
+- **Desarrollo**: Kelvin Jose Familia Adames
+- **Música y Sonidos**: https://pixabay.com/sound-effects/search/ganar/
+- **Imágenes**: AI (Kelvin Familia)
 
 ## Contacto
 
-Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros en [tu correo electrónico o enlace de contacto].
+Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros en docentekj@gmail.com.
 
 ¡Diviértete jugando a Pirate Shooter!
