@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             let counttimerDisparo = 0;
 
-            document.addEventListener("click", (event) => {
+            canva.addEventListener("click", (event) => {
                 event.preventDefault();
 
                 if (!vidas.hasVidas()) {
@@ -282,3 +282,14 @@ document.addEventListener("DOMContentLoaded", () => {
         comprarBalas.style.visibility = "visible";
     }
 });
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/js/sw.js')
+        .then((registration) => {
+          console.log('Service Worker registrado con éxito:', registration.scope);
+        })
+        .catch((error) => {
+          console.log('Error al registrar el Service Worker:', error);
+        });
+    });
+  }
